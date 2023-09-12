@@ -19,6 +19,8 @@
 		175DD7B62AA5165100A5D782 /* ImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 175DD7B52AA5165100A5D782 /* ImageModel.m */; };
 		175DD7B82AA52BBD00A5D782 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175DD7B72AA52BBD00A5D782 /* TableViewController.swift */; };
 		175DD7C02AA6868900A5D782 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175DD7BF2AA6868900A5D782 /* TimerViewController.swift */; };
+		D18630EB2AAFA3B5007F23E4 /* NumberModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D18630EA2AAFA3B5007F23E4 /* NumberModel.m */; };
+		D1D1E7F92AAFCB9600D3B212 /* MiscViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D1E7F82AAFCB9600D3B212 /* MiscViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,9 @@
 		175DD7B52AA5165100A5D782 /* ImageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageModel.m; sourceTree = "<group>"; };
 		175DD7B72AA52BBD00A5D782 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		175DD7BF2AA6868900A5D782 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		D18630E92AAFA3B5007F23E4 /* NumberModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberModel.h; sourceTree = "<group>"; };
+		D18630EA2AAFA3B5007F23E4 /* NumberModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberModel.m; sourceTree = "<group>"; };
+		D1D1E7F82AAFCB9600D3B212 /* MiscViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiscViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,8 @@
 				175DD7A32AA5090500A5D782 /* ViewController.swift */,
 				175DD7B42AA5165100A5D782 /* ImageModel.h */,
 				175DD7B52AA5165100A5D782 /* ImageModel.m */,
+				D18630E92AAFA3B5007F23E4 /* NumberModel.h */,
+				D18630EA2AAFA3B5007F23E4 /* NumberModel.m */,
 				175DD7A52AA5090500A5D782 /* Main.storyboard */,
 				175DD7BF2AA6868900A5D782 /* TimerViewController.swift */,
 				175DD7B72AA52BBD00A5D782 /* TableViewController.swift */,
@@ -85,6 +92,7 @@
 				175DD7AD2AA5090B00A5D782 /* Info.plist */,
 				175DD7B32AA5165000A5D782 /* UIExample-Bridging-Header.h */,
 				1757CE912AAE4DB300273D7E /* CollectViewController.swift */,
+				D1D1E7F82AAFCB9600D3B212 /* MiscViewController.swift */,
 			);
 			path = UIExample;
 			sourceTree = "<group>";
@@ -164,7 +172,9 @@
 				175DD7A42AA5090500A5D782 /* ViewController.swift in Sources */,
 				175DD7A02AA5090500A5D782 /* AppDelegate.swift in Sources */,
 				175DD7C02AA6868900A5D782 /* TimerViewController.swift in Sources */,
+				D18630EB2AAFA3B5007F23E4 /* NumberModel.m in Sources */,
 				175DD7A22AA5090500A5D782 /* SceneDelegate.swift in Sources */,
+				D1D1E7F92AAFCB9600D3B212 /* MiscViewController.swift in Sources */,
 				1757CE902AAE4CAF00273D7E /* TileCollectionViewCell.swift in Sources */,
 				1757CE922AAE4DB300273D7E /* CollectViewController.swift in Sources */,
 				175DD7B82AA52BBD00A5D782 /* TableViewController.swift in Sources */,

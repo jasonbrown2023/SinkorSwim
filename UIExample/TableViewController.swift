@@ -11,9 +11,6 @@ class TableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-
-        
     }
     
     
@@ -23,11 +20,17 @@ class TableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
+    /**
+     Return the number of sections in the table view
+     */
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 3
+        return 4
     }
 
+    /**
+    Returns the number of rows in the table
+     */
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if section == 0 {
             return self.imageModel.numberOfImages()
@@ -35,7 +38,11 @@ class TableViewController: UITableViewController {
         return 1
     }
     
+    /**
+     Returns the actual cells as listed from the storyboard.
+     */
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        print(indexPath)
         if indexPath.section == 0 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "ImageNameCell", for: indexPath)
             
@@ -53,18 +60,19 @@ class TableViewController: UITableViewController {
             
             return cell
             
-        }else{
+        }else if indexPath.section == 2{
        
             let cell = tableView.dequeueReusableCell(withIdentifier: "TimerCell", for: indexPath)
             cell.textLabel?.text = "Timer"
             return cell
-        }
-        
-    }
-        
+        }else{
             
-        
-    
+            let cell = tableView.dequeueReusableCell(withIdentifier: "EverythingCell", for: indexPath)
+            cell.textLabel?.text = "Everything Else"
+            return cell
+        }
+    }
+
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
